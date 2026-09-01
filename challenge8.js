@@ -7,5 +7,9 @@ let n3 = prompt('Le temps t en heures : ');
 let t = Number(n3);
 let Energie = U * I * t
 
-console.log(`\n`);
-console.log(`Note finale ${Note_finale}`);
+
+console.log(`Note finale ${U} v`);
+console.log(`Note finale ${I} A`);
+console.log(`Note finale ${t} heures`);
+console.log(`Note finale ${Energie} Wh`);
+
