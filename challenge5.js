@@ -16,4 +16,10 @@ else {
     console.log(`Durée: ${Duree} \n`);
     console.log(`Catégorie: Film standard`);
 }
+
+
+
+
+
+
 process.exit(0);
