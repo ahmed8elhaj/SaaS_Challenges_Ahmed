@@ -5,6 +5,7 @@ let taux = +prompt("Entrer le taux : ");
 let resultat = convertirMontant(montant, taux, formatMAD);
 console.log(resultat);
 
+
 function formatMAD(val) {
     val = val + " DH";
     return val
