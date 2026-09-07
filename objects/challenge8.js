@@ -8,6 +8,8 @@ function rechercherEtudiant(id) {
         { id: 4, name: "Imane", age: 21 }
     ];
     let idStudent = students.find(student => student.id === id);
+    console.log(idStudent);
+    
     if (idStudent) {
         console.log(`
 Étudiant trouvé !
