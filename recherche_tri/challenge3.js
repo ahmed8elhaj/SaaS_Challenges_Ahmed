@@ -5,7 +5,7 @@ function findNumbre(nombre) {
     while (start <= end) {
         let middle = (start + end) >> 1;
         if (ids[middle] === nombre) {
-            console.log(true, ' index : ', middle);
+            console.log(true ,' index : ', middle);
             return
         }
         if (ids[middle] < nombre) {
